@@ -1,0 +1,16 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="WebApplicationTesting" parallel="tests">
+<test name="setUp">
+<classes>
+<class name="com.TestNG_Serial_Parallel.BaseTest"/>
+</classes>
+</test>
+<test name="logInFunctionalityTest">
+<classes>
+<class name="com.TestNG_Serial_Parallel.OrangeHRM_LogInTest"/>
+</classes>
+</test>
+
+</suite>
